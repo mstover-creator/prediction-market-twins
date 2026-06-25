@@ -20,7 +20,7 @@ keywords:
   - market efficiency
   - cross-venue measurement
   - methodology
-license: MIT                       # <-- match your chosen LICENSE file
-repository-code: "[REPO_URL]"      # <-- fill after the repo is created
-url: "[REPO_URL]"
-date-released: "2026-06-DD"        # <-- fill on release
+license: MIT
+repository-code: "https://github.com/mstover-creator/prediction-market-twins"
+url: "https://github.com/mstover-creator/prediction-market-twins"
+date-released: "2026-06-25"
