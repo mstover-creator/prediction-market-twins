@@ -1,14 +1,8 @@
 # Comparing Prices Across Prediction-Market Venues Is Mostly a Measurement Problem: A Methodology and an Artifact Catalog
 
-*A solo independent research note*
+**Matthew Stover** · LS Advisory Group
 
-> **Pre-submission note (updated 2026-06-24):** Section 6 (Related Work) now cites real,
-> dated papers — see the References section. **One verification to-do remains:** the
-> Ng/Peng/Tao/Zhou SSRN entry (No. 5331995) was sourced via search and its SSRN page could
-> not be fetched directly — confirm the abstract ID, exact title, author order, and year on
-> SSRN before submitting. The other three (arXiv:2603.03136, arXiv:2508.03474 / AFT 2025,
-> arXiv:2605.00864) were verified from their arXiv abstract pages. The repo, dataset (Zenodo DOI),
-> and postmortem links in §8 are now filled in.
+*A solo independent research note*
 
 ## Abstract
 
