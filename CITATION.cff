@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Comparing Prices Across Prediction-Market Venues Is Mostly a Measurement Problem: A Methodology and an Artifact Catalog"
+abstract: >-
+  A pre-registered, fee-netted, freshness-filtered instrument for measuring cross-venue
+  price divergence between Polymarket and Kalshi, an apples-to-apples Polymarket-US (QCEX)
+  extension, a catalogue of five cross-venue measurement artifacts, and the negative result
+  they imply: where two venues genuinely co-list the same resolvable proposition, their
+  prices agree to within noise.
+type: software
+authors:
+  - family-names: Stover
+    given-names: Matthew
+    affiliation: "LS Advisory Group"
+    # orcid: "https://orcid.org/0000-0000-0000-0000"   # add if you have/create an ORCID
+keywords:
+  - prediction markets
+  - Polymarket
+  - Kalshi
+  - market efficiency
+  - cross-venue measurement
+  - methodology
+license: MIT                       # <-- match your chosen LICENSE file
+repository-code: "[REPO_URL]"      # <-- fill after the repo is created
+url: "[REPO_URL]"
+date-released: "2026-06-DD"        # <-- fill on release

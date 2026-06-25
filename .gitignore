@@ -1,0 +1,33 @@
+# === secrets / config ===
+.env
+*.env
+!.env.example
+
+# === data, state, logs (never publish) ===
+*.db
+*.db-wal
+*.db-shm
+*.log
+*_state*.json
+secrets/
+*.pem
+*.key
+
+# === the corpus is published to a dataset host (Kaggle/HF/Zenodo), not git ===
+*.csv
+polymarket_resolved_*.csv
+
+# === python ===
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# === operator-private working dirs ===
+**/sandbox/
+**/shelved/
+
+# === os / editor ===
+.DS_Store
+*.swp
