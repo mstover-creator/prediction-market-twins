@@ -2,6 +2,8 @@
 
 > A solo, ~$406 attempt to build a profitable prediction-market trading bot, why I retired the trade, the data-product pivot that followed, and the rigorously-measured negative result that ended it. Written for people who might try something similar — so they can skip the parts that don't work.
 
+**Repository:** https://github.com/mstover-creator/prediction-market-twins · **Dataset (DOI):** https://doi.org/10.5281/zenodo.20849433 · **License:** MIT (code), CC-BY-4.0 (data)
+
 ## The result, first
 
 **There is no edge here, and I can prove it.**
@@ -16,7 +18,7 @@ If you came here for a strategy, that's it: the strategy is to not run this stra
 
 ## The arc
 
-PolyEdge started as a Polymarket trading bot. The setup was modest and a little absurd: ~$406 of working capital, a single 4GB VPS, one operator, and — because Polymarket is geoblocked in the US — all trading traffic routed out through an overseas VPN tunnel. The bot evaluated markets on a loop, asked an LLM where price "should" be, consulted a RAG corpus of historical resolutions for base rates, and placed trades through Polymarket's CLOB API.
+PolyEdge started as a Polymarket trading bot. The setup was modest and a little absurd: ~$406 of working capital, a single 4GB VPS, one operator, and — because Polymarket is geoblocked in the US — all trading traffic egressing through an Ireland WireGuard tunnel. The bot evaluated markets on a loop, asked an LLM where price "should" be, consulted a RAG corpus of historical resolutions for base rates, and placed trades through Polymarket's CLOB API.
 
 It lost money. The interesting part is not that it lost money — most retail trading bots do — but that I stopped, instrumented *why*, and let the measurement make the decision instead of my hope.
 

@@ -7,9 +7,8 @@
 > Ng/Peng/Tao/Zhou SSRN entry (No. 5331995) was sourced via search and its SSRN page could
 > not be fetched directly — confirm the abstract ID, exact title, author order, and year on
 > SSRN before submitting. The other three (arXiv:2603.03136, arXiv:2508.03474 / AFT 2025,
-> arXiv:2605.00864) were verified from their arXiv abstract pages. Separately, the
-> `[REPO_URL]` / `[DATASET_URL]` / `[POSTMORTEM_URL]` fields in §8 still need the live URLs
-> once the repo / dataset / postmortem are published.
+> arXiv:2605.00864) were verified from their arXiv abstract pages. The repo, dataset (Zenodo DOI),
+> and postmortem links in §8 are now filled in.
 
 ## Abstract
 
@@ -129,7 +128,7 @@ Everything required to reproduce or extend the measurement is released:
 
 Because the repository and this note are published regardless of outcome, reproduction is intended to be near-zero marginal effort for anyone wishing to re-run the twin mapping or extend it to additional metrics or venues.
 
-Repository: `[REPO_URL]` · Dataset: `[DATASET_URL]` · Postmortem: `[POSTMORTEM_URL]`
+Repository: `https://github.com/mstover-creator/prediction-market-twins` · Dataset (DOI): `https://doi.org/10.5281/zenodo.20849433` · Postmortem: this repository's README
 
 ## Conclusion
 
